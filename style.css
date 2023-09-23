@@ -1,0 +1,118 @@
+header {
+text-align: end;
+}
+ .google {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+ }
+ body {
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+ }
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+li .imgperfil{
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+vertical-align: bottom;
+}
+.menu {
+    width: 15px;
+    height: 15px;
+    
+}
+
+.icon-buscador {
+position: relative;
+display: inline-flex;
+width: 30px;
+height: 30px;  
+background-position: left;
+transform: translate( 1070%, 15%);
+right: 85%;
+top: 30%;
+}
+#lupa{
+position: relative;
+display: inline-block;
+width: 70px;
+height: 70px;
+background-position: left;
+}
+#input-buscador
+{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 9px ;
+    top: 57%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 35px;
+
+}
+
+.barra-de-busqueda{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%); 
+    
+}
+button {
+    display: inline;
+    margin: 4px;
+    
+}
+ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline;
+    /* para hacer el espacio en las listas el primero es arriba el segundo a los lados,es decir va como las manesillas del reloj 
+    padding: 8px
+    padding: 8px 24px
+    padding: 8px 48px 60px*/
+    padding: 4px;
+
+}
+footer ul {
+    display: inline-flex;
+    text-decoration:dashed;
+    margin: 10px;
+    text-align: end;
+}
+footer ul li {
+    
+    margin: 9px;
+}
+footer
+{
+    background-image: url("img/1.jpg");
+padding: 1em 0;
+position: absolute;
+bottom: 0;
+width:100%;
+}
+ul .pie-de-pagina{
+    text-align: left;
+}
