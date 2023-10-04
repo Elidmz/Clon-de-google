@@ -9,6 +9,15 @@ text-align: end;
     left: 25%;
     transform: translate(-50%, -50%);
  }
+ main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
  body {
     margin: 0;
     display: grid;
